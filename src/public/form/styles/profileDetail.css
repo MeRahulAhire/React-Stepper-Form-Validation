@@ -1,0 +1,97 @@
+.profile-pic {
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	padding: 1rem;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+/* ============================== */
+.add-picture {
+	margin: auto;
+	font-size: 1rem;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+}
+.image-preview {
+	width: 120px;
+	min-height: 150px;
+	border: 5px solid black;
+	margin-top: 15px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: #000;
+	outline: none;
+}
+
+.image-preview__image {
+	display: none;
+	width: 100%;
+	height: 150px;
+	display: block;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+#inpFile[type="file"] {
+	display: none;
+}
+.label-holder {
+	width: 200px;
+	height: 50px;
+	margin-top: 1rem;
+}
+.image-upload {
+	color: white;
+	background-color: black;
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	justify-content: center;
+	border-radius: 50px;
+}
+
+.description {
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	padding: 1rem;
+	padding-top: 0;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.description textarea {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	background: none;
+	width: 350px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+	.description textarea {
+		width: 260px;
+	}
+}
+@media screen and (max-height: 700px) {
+	.profile-detail {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+}

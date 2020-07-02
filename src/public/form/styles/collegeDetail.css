@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Varela|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.signup-bg{
+    height: 92vh;
+    background-image: url("../../assets/portrait-of-woman-photographing-with-smart-phone-248021-_1_.webp") ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container{
+    width: 450px;
+    min-height:450px;
+    max-height: 650px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 30px;
+}
+.college-heading{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.college-search{
+    margin: 1rem;
+    margin-top: 0;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    width: 420px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.branch{
+    position: relative;
+    padding-top: 5rem;
+}
+.year-of-admission{
+    position: relative;
+}
+.btn-next{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*  */
+.col-form-prev{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 1rem;
+    outline: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+  
+}
+.gender-select{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px black solid;
+    font-size: 1rem;
+    font-weight:thick;
+    padding-left: 1.5rem;
+    color: black;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/*  */
+.phone{
+    margin: 1rem;
+    margin-top: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block
+}
+.col-form-next{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    outline: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .signup-container{
+        width:300px;
+        
+    }
+    .college-search{
+        width: 270px;
+    }
+}
+@media screen and (max-height:600px){
+    .signup-container{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .signup-bg{
+        height: auto;
+    }
+}
+/* ======================================================== */
+
+#yoa-error{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: none;
+    text-align: right;
+}
+#dob-error{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: none;
+    text-align: right;
+}
+#password-error{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    display: none;
+    text-align: right;
+}
+/* ========================================================= */
+.user-detail {
+	font-family: 'Varela Round', sans-serif;
+	margin: 1rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+    margin-top: 0;
+    width: 87%;
+}
+.user-detail input {
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 40px;
+	background: none;
+	border-radius: 5px;
+	border: 2px black solid;
+	font-size: 1rem;
+	font-weight: thick;
+	padding-left: 1.5rem;
+	color: black;
+    outline: none;
+}

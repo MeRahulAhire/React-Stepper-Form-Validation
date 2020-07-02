@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+SC&display=swap');
+.review-page{
+    height: 92vh;
+    background-image: url('../../assets/portrait-of-woman-photographing-with-smart-phone-248021-_1_.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.review-check-container{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    margin-top: 5rem;
+    margin: auto;
+    overflow-y: scroll;
+}
+.review-check-container::-webkit-scrollbar{
+    width: 10px;
+}
+.review-check-container::-webkit-scrollbar-track{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.review-check-container::-webkit-scrollbar-thumb{
+    background-color: rgb(101, 101, 101);
+    border-radius: 10px;
+}
+.review-check-container::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.review-banner{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 6px;
+    
+}
+
+.details{
+    width: 100%;
+
+}
+.img-holder{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+}
+
+.review-profile-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.personal-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.value-container{
+    min-height: 60px;
+    max-width: auto;
+    width: 40%;
+}
+.value-container span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.value-holder{
+    font-family: 'Noto Sans SC', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.personal-detail-long{
+    /* width: 100%;   */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.textarea-container{
+    width: 100%;
+    height: auto;
+    /* margin: 0; */
+}
+.textarea-container span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.text-holder{
+    font-family: 'Noto Sans SC', sans-serif;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    width: 90%;
+}
+.message{
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.signup{
+    /* font-weight: bold; */
+    background-color: black;
+    color: white;
+    height:auto ;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+
+}
+.review-action{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+.goBack{
+    background: none;
+    height: 50px;
+    width: 120px;
+    border: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+}
+.reg-submit{
+    background: black;
+    height: 50px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:500px){
+    .review-check-container{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-height:450px){
+    .review-check-container{
+        width: 100%;
+        height: 100%;
+    }
+}

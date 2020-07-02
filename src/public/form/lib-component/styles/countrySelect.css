@@ -1,0 +1,51 @@
+.select-box {
+	width: 60px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	margin-left: 0.5rem;
+}
+.telephone {
+	display: flex;
+}
+#img {
+	width: 60px;
+	min-height: 20px;
+	height: 40px;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.select-box select {
+	font-family: 'Lato', sans-serif;
+	width: 60px;
+	height: 40px;
+	background: none;
+	/* z-index: 20; */
+	position: absolute;
+	padding: 1.05rem;
+	border: none;
+	font-size: 1rem;
+	font-weight: thick;
+	padding-left: 4rem;
+	color: black;
+	outline: none;
+	-webkit-appearance: none;
+}
+.tel {
+	/* width: 100px; */
+    font-family: 'Lato', sans-serif;
+
+	width: 100%;
+	height: 40px;
+	background: none;
+	border-radius: 5px;
+	border: 2px black solid;
+	font-size: 1rem;
+	font-weight: thick;
+	padding-left: 1.5rem;
+	color: black;
+	outline: none;
+	margin-left: 1rem;
+}
