@@ -11,7 +11,7 @@ import ReviewForm from './reviewForm'
 export class Registration extends Component {
   
       state = {
-      step: 3,
+      step: 1,
       CollegeName: '',
       Branch: '',
       YearOfAdmission: '',
